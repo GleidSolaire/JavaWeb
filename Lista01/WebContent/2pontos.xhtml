@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+
+<h:head></h:head> 
+<h:body> 
+<h1>Calcula Distancia entre dois pontos</h1>
+<h:inText value="x1" for="n1" />
+<h:outputText value="#{doisPontosBeans.x}" id="n1" />
+<br />
+<h:inputText value="x2" for="n2" />
+<h:outputText value="#{doisPontosBeans.x2}" id="n2" />
+<br />
+<h:inputText value="y1" for="n3" />
+<h:outputText value="#{doisPontosBeans.y}" id="n3" />
+<br />
+<h:inputText value="y2" for="n4" />
+<h:outputText value="#{doisPontosBeans.y2}" id="n4" />
+<br />
+<h:outpiText value="resposta" for="n5" />
+<h:outputText value="#{doisPontosBeans.r}" id="n5" />
+<br />
+<h:commandButton action="#{doisPontosBeans.CalculaDistancia()}" value="calcular" />
+
+
+</h:body> 
+</html>

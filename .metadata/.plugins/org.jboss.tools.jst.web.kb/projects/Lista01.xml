@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/enterprise/concurrent/api/main/jboss-concurrency-api_1.0_spec-1.0.2.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/jws/api/main/jsr181-api-1.0-MR1.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/faces/api/main/jboss-jsf-api_2.3_spec-2.3.9.SP01.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/el/api/main/jboss-el-api_3.0_spec-1.0.13.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/servlet/jstl/api/main/taglibs-standard-compat-1.2.6-RC1.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-compat-1.2.6-RC1.jar/meta-inf/c-1_0.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-compat-1.2.6-RC1.jar/meta-inf/fmt-1_0.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-compat-1.2.6-RC1.jar/meta-inf/sql-1_0.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-compat-1.2.6-RC1.jar/meta-inf/x-1_0.tld" project="Lista01"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/xml/rpc/api/main/jboss-jaxrpc-api_1.1_spec-1.0.2.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/picketbox/main/picketbox-5.0.3.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/GitHub/JavaWeb/Lista01/WebContent/WEB-INF/lib/commons-collections.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/wsdl4j/api/main/wsdl4j-1.6.3.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxb-provider/main/resteasy-jaxb-provider-3.6.3.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/resteasy-client-microprofile-3.6.3.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/wildfly/common/main/wildfly-common-1.4.0.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/websocket/api/main/jboss-websocket-api_1.1_spec-1.1.3.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/activation/api/main/activation-1.1.1.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/hibernate/validator/main/hibernate-validator-6.0.15.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/json/api/main/javax.json-api-1.1.2.jar"/>
+  <path value="C:/Users/1828282/Documents/GitHub/JavaWeb/Lista01/WebContent/WEB-INF/lib/commons-beanutils.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/xml/soap/api/main/jboss-saaj-api_1.3_spec-1.0.6.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/GitHub/JavaWeb/Lista01/WebContent/WEB-INF/lib/jstl.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/resteasy-client-3.6.3.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-jaxrs/main/resteasy-jaxrs-3.6.3.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/annotation/api/main/jboss-annotations-api_1.3_spec-1.0.1.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/servlet/jsp/api/main/jboss-jsp-api_2.3_spec-1.0.3.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/jboss/logging/main/jboss-logging-3.3.2.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/batch/api/main/jboss-batch-api_1.0_spec-1.0.1.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/GitHub/JavaWeb/Lista01/WebContent/WEB-INF/lib/common-annotations.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/enterprise/api/main/cdi-api-2.0.SP1.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/transaction/api/main/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/jboss/ejb3/main/jboss-ejb3-ext-api-2.3.0.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/GitHub/JavaWeb/Lista01/WebContent/WEB-INF/lib/commons-digester.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/ws/rs/api/main/jboss-jaxrs-api_2.1_spec-1.0.2.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/wildfly/security/elytron-private/main/wildfly-elytron-1.8.0.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/xml/bind/api/main/jboss-jaxb-api_2.3_spec-1.0.1.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/picketbox/main/picketbox-infinispan-5.0.3.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/jms/api/main/jboss-jms-api_2.0_spec-1.0.2.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/xml/ws/api/main/jboss-jaxws-api_2.3_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/jboss/dmr/main/jboss-dmr-1.5.0.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/ejb/api/main/jboss-ejb-api_3.2_spec-1.0.1.Final.jar"/>
+  <path value="/Lista01/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="Lista01"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/resource/api/main/jboss-connector-api_1.7_spec-1.0.1.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/inject/api/main/javax.inject-1.jar"/>
+  <path value="C:/Users/1828282/Documents/GitHub/JavaWeb/Lista01/WebContent/WEB-INF/lib/primefaces-7.0.jar">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-7.0.jar/meta-inf/faces-config.xml" project="Lista01"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-primefaces-7.0.jar/meta-inf/primefaces-p.taglib.xml" project="Lista01"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1828282/Documents/GitHub/JavaWeb/Lista01/WebContent/WEB-INF/lib/commons-logging.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/security/jacc/api/main/jboss-jacc-api_1.5_spec-1.0.2.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/persistence/api/main/javax.persistence-api-2.2.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/validation/api/main/validation-api-2.0.1.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/interceptor/api/main/jboss-interceptors-api_1.2_spec-1.0.1.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/security/auth/message/api/main/jboss-jaspi-api_1.1_spec-1.0.2.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/GitHub/JavaWeb/Lista01/WebContent/WEB-INF/lib/standard.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/c-1_0-rt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/c-1_0.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/c.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/fmt-1_0-rt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/fmt-1_0.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/fmt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/fn.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/permittedtaglibs.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/scriptfree.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/sql-1_0-rt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/sql-1_0.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/sql.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/x-1_0-rt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/x-1_0.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-standard.jar/meta-inf/x.tld" project="Lista01"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/servlet/api/main/jboss-servlet-api_4.0_spec-1.0.0.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/picketbox/main/picketbox-commons-1.0.0.final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/jboss/as/controller-client/main/wildfly-controller-client-8.0.0.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/org/jboss/resteasy/resteasy-multipart-provider/main/resteasy-multipart-provider-3.6.3.Final.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/servlet/jstl/api/main/taglibs-standard-impl-1.2.6-RC1.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/c-1_0-rt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/c-1_1.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/c.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/fmt-1_0-rt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/fmt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/fn.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/permittedtaglibs.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/scriptfree.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/sql-1_0-rt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/sql.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/x-1_0-rt.tld" project="Lista01"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-taglibs-standard-impl-1.2.6-RC1.jar/meta-inf/x.tld" project="Lista01"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/mail/api/main/javax.mail-1.6.2.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/servlet/jstl/api/main/taglibs-standard-spec-1.2.6-RC1.jar"/>
+  <path value="C:/Users/1828282/Documents/wildfly-16.0.0.Final/wildfly-16.0.0.Final/modules/system/layers/base/javax/management/j2ee/api/main/jboss-j2eemgmt-api_1.1_spec-1.0.2.Final.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource declaration="true" name="%1;" path="%0"/>
+   <linked-resource declaration="true" name="%3;" path="%2"/>
+  </core>
+  <el>
+   <linked-el length="24" name="%0" offset="747" path="%4"/>
+   <linked-el length="23" name="%0" offset="446" path="%4"/>
+   <linked-el length="23" name="%0" offset="647" path="%4"/>
+   <linked-el length="40" name="%0" offset="921" path="%4"/>
+   <linked-el length="23" name="%0" offset="854" path="%4"/>
+   <linked-el length="24" name="%0" offset="546" path="%4"/>
+   <linked-el length="41" name="%2" offset="952" path="%5"/>
+   <linked-el length="22" name="%2" offset="608" path="%5"/>
+   <linked-el length="21" name="%2" offset="721" path="%5"/>
+   <linked-el length="21" name="%2" offset="833" path="%5"/>
+   <linked-el length="24" name="%1" offset="747" path="%4"/>
+   <linked-el length="23" name="%1" offset="446" path="%4"/>
+   <linked-el length="23" name="%1" offset="647" path="%4"/>
+   <linked-el length="40" name="%1" offset="921" path="%4"/>
+   <linked-el length="23" name="%1" offset="854" path="%4"/>
+   <linked-el length="24" name="%1" offset="546" path="%4"/>
+   <linked-el length="41" name="%3" offset="952" path="%5"/>
+   <linked-el length="22" name="%3" offset="608" path="%5"/>
+   <linked-el length="21" name="%3" offset="721" path="%5"/>
+   <linked-el length="21" name="%3" offset="833" path="%5"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="/Lista01/JavaSource/Web/DoisPontosBeans.java" value="%0"/>
+  <alias path="/Lista01/WebContent/2pontos.xhtml" value="%4"/>
+  <alias path="/Lista01/JavaSource/Web/ProgressaoBean.java" value="%2"/>
+  <alias path="doisPontosBeans" value="%1"/>
+  <alias path="/Lista01/WebContent/pa.xhtml" value="%5"/>
+  <alias path="progressaoBean" value="%3"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+  <uri value="http://primefaces.org/ui">
+   <prefix>p</prefix>
+  </uri>
+ </uris>
+</kb-project>

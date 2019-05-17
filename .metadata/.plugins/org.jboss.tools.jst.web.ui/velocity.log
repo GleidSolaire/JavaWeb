@@ -1,0 +1,57 @@
+2019-05-14 19:50:44,949 - Log4JLogChute initialized using file 'C:\Users\1828282\eclipse-workspace\.metadata\.plugins\org.jboss.tools.jst.web.ui\velocity.log'
+2019-05-14 19:50:44,949 - Starting Apache Velocity v1.5 (compiled: 2007-02-22 08:52:29)
+2019-05-14 19:50:44,949 - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2019-05-14 19:50:44,949 - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogChute
+2019-05-14 19:50:44,950 - Couldn't find class org.apache.velocity.runtime.log.AvalonLogChute or necessary supporting classes in classpath.
+java.lang.NoClassDefFoundError: org/apache/log/format/Formatter
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.apache.velocity.util.ClassUtils.getClass(ClassUtils.java:63)
+	at org.apache.velocity.util.ClassUtils.getNewInstance(ClassUtils.java:95)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:147)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:208)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:728)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:240)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:534)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:227)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:111)
+	at org.jboss.tools.jst.web.ui.operation.TemplatePreprocessor.process(TemplatePreprocessor.java:79)
+	at org.jboss.tools.jst.web.ui.operation.TemplatePreprocessor.execute(TemplatePreprocessor.java:58)
+	at org.jboss.tools.jst.web.ui.operation.WebNatureOperation.preprocessTemplate(WebNatureOperation.java:628)
+	at org.jboss.tools.jsf.ui.operation.JSFProjectCreationOperation.copyTemplate(JSFProjectCreationOperation.java:134)
+	at org.jboss.tools.jst.web.ui.operation.WebProjectCreationOperation.preCreateWebNature(WebProjectCreationOperation.java:76)
+	at org.jboss.tools.jst.web.ui.operation.WebNatureOperation.run(WebNatureOperation.java:223)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:71)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.lang.ClassNotFoundException: org.apache.log.format.Formatter cannot be found by org.apache.velocity_1.5.0.v200905192330
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:511)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 23 more
+2019-05-14 19:50:44,951 - Trying to use logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-14 19:50:44,951 - Using logger class org.apache.velocity.runtime.log.Log4JLogChute
+2019-05-14 19:50:44,953 - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2019-05-14 19:50:44,957 - ResourceLoader instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2019-05-14 19:50:44,957 - Do unicode file recognition:  false
+2019-05-14 19:50:44,957 - FileResourceLoader : adding path 'C:\Users\1828282\eclipse-workspace\.metadata\.plugins\org.jboss.tools.common.projecttemplates\templates\jsf-2.2\JSFBlankWithoutLibs'
+2019-05-14 19:50:45,003 - ResourceCache: initialized (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2019-05-14 19:50:45,004 - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2019-05-14 19:50:45,005 - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2019-05-14 19:50:45,006 - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2019-05-14 19:50:45,007 - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2019-05-14 19:50:45,008 - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2019-05-14 19:50:45,062 - Created '20' parsers.
+2019-05-14 19:50:45,065 - Velocimacro : "velocimacro.library" is not set.  Trying default library: VM_global_library.vm
+2019-05-14 19:50:45,066 - Velocimacro : Default library not found.
+2019-05-14 19:50:45,066 - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2019-05-14 19:50:45,066 - Velocimacro : allowInlineToOverride = false : VMs defined inline may NOT replace previous VM definitions
+2019-05-14 19:50:45,066 - Velocimacro : allowInlineLocal = false : VMs defined inline will be global in scope if allowed.
+2019-05-14 19:50:45,066 - Velocimacro : autoload off : VM system will not automatically reload global library macros
+2019-05-14 19:50:45,079 - Null reference [template '', line 29, column 17] : ${project.name} cannot be resolved.
+2019-05-14 19:54:49,788 - Null reference [template '', line 29, column 17] : ${project.name} cannot be resolved.

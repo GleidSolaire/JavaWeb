@@ -1,0 +1,60 @@
+package Web;
+
+import br.edu.lista01.Exercicios;
+
+public class DoisPontosBeans {
+
+	private Integer x1;
+	private Integer y1;
+	private Integer y2;
+	private Integer x2;
+	private Integer r;
+	
+	public void CalculaDistancia () {
+		
+		this.r= Exercicios.calcularDistanciaEntrePontos(x1, y1, x2, y2);
+		
+		
+	}
+	
+	
+	public Integer getR() {
+		return r;
+	}
+
+
+	public void setR(Integer r) {
+		this.r = r;
+	}
+
+
+	public Integer getX() {
+		
+		return x;
+	}
+	public void setX(Integer x) {
+		this.x = x;
+	}
+	public Integer getY() {
+		return y;
+	}
+	public void setY(Integer y) {
+		this.y = y;
+	}
+	public Integer getY2() {
+		return y2;
+	}
+	public void setY2(Integer y2) {
+		this.y2 = y2;
+	}
+	public Integer getX2() {
+		return x2;
+	}
+	public void setX2(Integer x2) {
+		this.x2 = x2;
+	}
+	
+	
+	
+	
+}
